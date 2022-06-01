@@ -34,7 +34,9 @@ export default function Layout({ children, title }) {
         <>
             <Header title={title} />
             <main>
-                <animated.div style={props}>{children}</animated.div>
+                <animated.div class="container" style={props}>
+                    {children}
+                </animated.div>
             </main>
             <Footer />
         </>

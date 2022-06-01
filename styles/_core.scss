@@ -19,6 +19,15 @@ footer {
 }
 
 main {
-    grid-column: 2/3;
-    padding: 2rem 0 3rem 0;
+    width: 100vw;
+    height: 60vh;
+    flex: 1;
+    background-color: "#007bff22";
+    margin: 0px auto;
+    justify-content: center;
+}
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
