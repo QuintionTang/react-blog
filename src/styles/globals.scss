@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-devpoint {
+  background: linear-gradient(
+    90deg,
+    #8d65e9 0%,
+    #5391e4 47.61904761904761%,
+    #6bcd94 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  text-fill-color: transparent !important;
+}
+.subtitle {
+  color: rgba(255, 255, 255, 0.447);
+  font-size: 14px;
+  font-weight: normal;
+}
